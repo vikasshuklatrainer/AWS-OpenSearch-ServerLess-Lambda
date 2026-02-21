@@ -1,0 +1,59 @@
+[
+  {
+    "Rules": [
+      {
+        "Resource": [
+          "collection/<Collection-Name>"
+        ],
+        "Permission": [
+          "aoss:CreateCollectionItems",
+          "aoss:DeleteCollectionItems",
+          "aoss:UpdateCollectionItems",
+          "aoss:DescribeCollectionItems"
+        ],
+        "ResourceType": "collection"
+      },
+      {
+        "Resource": [
+          "index/<Collection-Name>/*"
+        ],
+        "Permission": [
+          "aoss:CreateIndex",
+          "aoss:DeleteIndex",
+          "aoss:UpdateIndex",
+          "aoss:DescribeIndex",
+          "aoss:ReadDocument",
+          "aoss:WriteDocument"
+        ],
+        "ResourceType": "index"
+      }
+    ],
+    "Principal": [
+      "arn:aws:iam::642296558846:user/p88-vlabuser025@stackroute.in",
+      "arn:aws:iam::642296558846:role/Shukla-lambda-opensearch-role"
+    ],
+    "Description": "Rule 1"
+  },
+  {
+    "Rules": [
+      {
+        "Resource": [
+          "model/<Collection-Name>/*"
+        ],
+        "Permission": [
+          "aoss:CreateMLResource",
+          "aoss:DeleteMLResource",
+          "aoss:UpdateMLResource",
+          "aoss:DescribeMLResource",
+          "aoss:ExecuteMLResource"
+        ],
+        "ResourceType": "model"
+      }
+    ],
+    "Principal": [
+      "arn:aws:iam::642296558846:user/p88-vlabuser025@stackroute.in",
+      "arn:aws:iam::642296558846:role/Shukla-lambda-opensearch-role"
+    ],
+    "Description": "Rule 1 - Model Permissions"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "Effect": "Allow",
+  "Principal": {
+    "AWS": "arn:aws:iam::<account-id>:role/Shukla-lambda-opensearch-role"
+  },
+  "Action": "es:*",
+  "Resource": "arn:aws:es:us-east-1:<account-id>:domain/YOURDOMAIN/*"
+}

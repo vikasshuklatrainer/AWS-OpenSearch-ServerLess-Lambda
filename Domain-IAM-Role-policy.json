@@ -1,0 +1,9 @@
+{
+  "Effect": "Allow",
+  "Action": [
+    "es:ESHttpPost",
+    "es:ESHttpPut",
+    "es:ESHttpGet"
+  ],
+  "Resource": "*"
+}

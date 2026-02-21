@@ -1,0 +1,1 @@
+# AWS-OpenSearch-ServerLess-Lambda

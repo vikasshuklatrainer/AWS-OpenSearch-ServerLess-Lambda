@@ -2,7 +2,7 @@
 
 In This lab we will create a Lambda function that will sends the data to AWS open search server less collection.
 
-## Create a Open Search Server less collection
+## Create a Open Search Server-less collection
 
 Go to AWS Console 
 
@@ -20,7 +20,7 @@ Provide a name to Collection and Select "search"
 
 ![4](./images/4.png)
 
-un select the  redundency check box and select standard create.
+un select the  redundancy check box and select standard create.
 
 ![5](./images/5.png)
 
@@ -41,4 +41,7 @@ Name the Index as "" demo-index
 Review and click Submit.
 
 ![10](./images/10.png)
+
+wait for collection to be created. Do not navigate away  from this page.
+![11](./images/11.png)
 

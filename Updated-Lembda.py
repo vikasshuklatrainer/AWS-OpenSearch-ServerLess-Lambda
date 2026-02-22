@@ -70,7 +70,7 @@ def build_bulk_payload(docs):
         for doc in docs:
 
             # Using TraceId as unique document id (log-style ingestion)
-            action = {"index": {"_index": index_name, "_id": doc["TraceId"]}}
+            action = {"index": {"_index": index_name}}
 
             bulk_data += json.dumps(action) + "\n"
             bulk_data += json.dumps(doc) + "\n"

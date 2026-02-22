@@ -29,8 +29,8 @@
       }
     ],
     "Principal": [
-      "arn:aws:iam::642296558846:user/p88-vlabuser025@stackroute.in",
-      "arn:aws:iam::642296558846:role/Shukla-lambda-opensearch-role"
+      "<ARN-of-the-user>",
+      "<ARN of the-role-created>"
     ],
     "Description": "Rule 1"
   },
@@ -51,8 +51,8 @@
       }
     ],
     "Principal": [
-      "arn:aws:iam::642296558846:user/p88-vlabuser025@stackroute.in",
-      "arn:aws:iam::642296558846:role/Shukla-lambda-opensearch-role"
+      "<ARN-of-the-user>",
+      "<ARN of the-role-created>"
     ],
     "Description": "Rule 1 - Model Permissions"
   }
